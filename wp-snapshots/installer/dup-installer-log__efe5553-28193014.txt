@@ -1,0 +1,560 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 09:31:41
+* VERSION: 1.3.22
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.18                                |7.1.32
+OS__________________: WINNT                                 |Linux
+CREATED_____________: 2019-10-28 19:30:14
+WP VERSION__________: 5.2.4
+DUP VERSION_________: 1.3.22
+DB__________________: 5.7.26
+DB TABLES___________: 32
+DB ROWS_____________: 2,979
+DB FILE SIZE________: 6.07MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.1.32 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/danielle/public_html/teste_zrp"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://daniellefernandes.tk/teste_zrp/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "ZRPCoffeeMachine_efe5553548d237867111_20191028193014_archive.zip"
+SIZE________________: 226.83MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/home/danielle/public_html/teste_zrp/ZRPCoffeeMachine_efe5553548d237867111_20191028193014_archive.zip' -d '/home/danielle/public_html/teste_zrp' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 09:31:45 - RUNTIME: 4.5498 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'danielle_dr'@'localhost' (using password: YES) [CODE:2|FILE:/home/danielle/public_html/teste_zrp/dup-installer/classes/class.db.php|LINE:43]
+DATABASE CONNECTION ERROR: Access denied for user 'danielle_dr'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'daniramona'@'localhost' (using password: YES) [CODE:2|FILE:/home/danielle/public_html/teste_zrp/dup-installer/classes/class.db.php|LINE:43]
+DATABASE CONNECTION ERROR: Access denied for user 'daniramona'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:36:04
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.41 -- Build Server: 5.7.26
+FILE SIZE:	dup-database__efe5553-28193014.sql (6.22MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/danielle/public_html/teste_zrp/dup-installer/dup-installer-data__efe5553-28193014.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	3014
+
+wp_aps_log: (8)
+wp_bwg_album: (0)
+wp_bwg_album_gallery: (0)
+wp_bwg_file_paths: (32)
+wp_bwg_gallery: (1)
+wp_bwg_image: (14)
+wp_bwg_image_comment: (0)
+wp_bwg_image_rate: (0)
+wp_bwg_image_tag: (0)
+wp_bwg_shortcode: (1)
+wp_bwg_theme: (2)
+wp_commentmeta: (0)
+wp_comments: (4)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_newsletter: (1)
+wp_newsletter_emails: (0)
+wp_newsletter_sent: (0)
+wp_newsletter_stats: (0)
+wp_newsletter_user_logs: (0)
+wp_ngg_album: (0)
+wp_ngg_gallery: (1)
+wp_ngg_pictures: (10)
+wp_options: (342)
+wp_postmeta: (1688)
+wp_posts: (584)
+wp_term_relationships: (87)
+wp_term_taxonomy: (35)
+wp_termmeta: (0)
+wp_terms: (35)
+wp_usermeta: (58)
+wp_users: (1)
+Removed '75' cache/transient rows
+
+INSERT DATA RUNTIME: 0.5775 sec.
+STEP-2 COMPLETE @ 09:36:05 - RUNTIME: 0.5856 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:36:42
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "ZRP COFFEE MACHINE"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/wamp64/www/wordpress/wordpress/"
+path_new______________: "/home/danielle/public_html/teste_zrp/"
+siteurl_______________: "http://daniellefernandes.tk/teste_zrp"
+url_old_______________: "http://localhost/wordpress/wordpress"
+url_new_______________: "http://daniellefernandes.tk/teste_zrp"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "danielle_dr"
+dbname________________: "danielle_zrp"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: "dzrp"
+wp_mail_______________: "daniramonaa@gmail.com"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_aps_log"______________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_bwg_album"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_album_gallery"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_file_paths"_______________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_bwg_gallery"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_bwg_image"____________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_bwg_image_comment"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_image_rate"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_image_tag"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_shortcode"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_bwg_theme"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_newsletter"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_newsletter_emails"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_newsletter_sent"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_newsletter_stats"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_newsletter_user_logs"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ngg_album"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ngg_gallery"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_ngg_pictures"_________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   342][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1688][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   584][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    87][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    58][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/wamp64/www/wordpress/wordpress/" ==============> "/home/danielle/public_html/teste_zrp/"
+	SEARCH  2:"C:\/wamp64\/www\/wordpress\/wordpress\/" =========> "\/home\/danielle\/public_html\/teste_zrp\/"
+	SEARCH  3:"C%3A%2Fwamp64%2Fwww%2Fwordpress%2Fwordpress%2F" ==> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp%2F"
+	SEARCH  4:"C:\wamp64\www\wordpress\wordpress" ===============> "/home/danielle/public_html/teste_zrp"
+	SEARCH  5:"C:\\wamp64\\www\\wordpress\\wordpress" ===========> "\/home\/danielle\/public_html\/teste_zrp"
+	SEARCH  6:"C%3A%5Cwamp64%5Cwww%5Cwordpress%5Cwordpress" =====> "%2Fhome%2Fdanielle%2Fpublic_html%2Fteste_zrp"
+	SEARCH  7:"//localhost/wordpress/wordpress" =================> "//daniellefernandes.tk/teste_zrp"
+	SEARCH  8:"\/\/localhost\/wordpress\/wordpress" =============> "\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH  9:"%2F%2Flocalhost%2Fwordpress%2Fwordpress" =========> "%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+	SEARCH 10:"https://daniellefernandes.tk/teste_zrp" ==========> "http://daniellefernandes.tk/teste_zrp"
+	SEARCH 11:"https:\/\/daniellefernandes.tk\/teste_zrp" =======> "http:\/\/daniellefernandes.tk\/teste_zrp"
+	SEARCH 12:"https%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp" ==> "http%3A%2F%2Fdaniellefernandes.tk%2Fteste_zrp"
+--------------------------------------
+SCANNED:	Tables:32 	|	 Rows:2904 	|	 Cells:23714 
+UPDATED:	Tables:3 	|	 Rows:554 	|	 Cells:645 
+ERRORS:		0 
+RUNTIME:	0.258800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'dzrp' was created successfully allong with MU usermeta.
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""danielle_zrp""
+	UPDATE DB_USER ""danielle_dr""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Activated plugins (If they are activated) listed here will be deactivated: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:36:42 - RUNTIME: 0.2824 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
